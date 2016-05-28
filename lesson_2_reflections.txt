@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+New hidden folder .git is created. It holds metainformation about the current folder and subfolders. In this way you add some directory to be tracket by Git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is tracked by your local git but it's not accessible by other people. You can group a number of changes in staging area and then execute single commit to add them as logical unit to common project.
