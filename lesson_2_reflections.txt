@@ -19,4 +19,4 @@ Result is a common branch which contains changes from both branches. Because ins
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 It saves time and effort merging simple cases automatically but in rare occasions it could lead to incorrect version added to repository.
 
-some change
+merged version
