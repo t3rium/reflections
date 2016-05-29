@@ -3,3 +3,18 @@ New hidden folder .git is created. It holds metainformation about the current fo
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is tracked by your local git but it's not accessible by other people. You can group a number of changes in staging area and then execute single commit to add them as logical unit to common project.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can check what exactly has changed and see current diff between the change and repository state among all changed files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help to have a couple of slightly different versions of your project, for example, you could work on stable version with only small changes and also have version with more dramatic and less stable changes. In this way branches help to differentiate risky version with higher bugs probablity rate from more stable version.
+
+How do the diagrams help you visualize the branch structure?
+You can see which branch a commit is related to, what is its parent commit, and see if some commit is unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Result is a common branch which contains changes from both branches. Because instead of 2 branches here is only one and also we can find parent commits for each commit.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+It saves time and effort merging simple cases automatically but in rare occasions it could lead to incorrect version added to repository.
