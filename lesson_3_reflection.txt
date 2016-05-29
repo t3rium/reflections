@@ -9,3 +9,6 @@ Fork is a GitHub feature it's just adds a link between your repository and repos
 
 What is the benfit of having a copy of the last known state of the remote stored locally?
 You can see difference between your working copy and remote and merge it without access to internet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and would be harder?
+If you set aside other vcs than you could send changed files via email or pass them in some other way. It would be easier because you don't need to learn how to use Git. But working with conflicting changes, working from different machines and looking through history would be much more difficult if not impossible.
